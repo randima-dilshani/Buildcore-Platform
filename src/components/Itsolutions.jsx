@@ -131,23 +131,28 @@ export default function Page() {
           <div
             className={`max-w-3xl transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
           >
-            <span className="inline-block px-4 py-1.5 bg-[#fbbf24]/20 text-[#fbbf24] text-sm font-semibold rounded-full mb-6 border border-[#fbbf24]/30 animate-[bounce_2s_ease-in-out_infinite]">
-              IT Solutions Provider
-            </span>
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 text-balance">
-              Expert IT Solutions
-              <span className="text-[#fbbf24]"> & Digital</span> Transformation
-            </h1>
+          <span className="inline-block px-4 py-1.5 bg-[#3fa0ff]/20 text-[#3fa0ff] text-sm font-semibold rounded-full mb-6 border border-[#3fa0ff]/30 animate-[bounce_2s_ease-in-out_infinite]">
+  IT Solutions Provider
+</span>
+
+           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 text-balance">
+  Expert IT Solutions
+  <span className="text-gradient-blue font-extrabold"> & Digital</span> Transformation
+</h1>
+
             <p className="text-lg md:text-xl text-[#cbd5e1] mb-8 leading-relaxed max-w-2xl">
-              North Central Engineering specializes in delivering cutting-edge software development, cloud solutions,
+              Material Hub specializes in delivering cutting-edge software development, cloud solutions,
               cybersecurity, and complete IT infrastructure services for businesses across all industries.
             </p>
             <div className="flex flex-wrap gap-4">
-              <button className="px-8 py-4 bg-[#fbbf24] text-[#0a1628] rounded-xl font-semibold hover:bg-[#f59e0b] transition-all duration-300 hover:shadow-xl hover:shadow-[#fbbf24]/25 hover:scale-105 flex items-center gap-2 group">
-                Our Services
-                <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform duration-300" />
-              </button>
-              <button className="px-8 py-4 border-2 border-[#fbbf24]/50 rounded-xl font-semibold hover:bg-[#fbbf24]/10 hover:border-[#fbbf24] transition-all duration-300 flex items-center gap-2 group">
+             <div className="hero-buttons">
+  <button className="btn-primary flex items-center gap-2">
+    Our Services
+    <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform duration-300" />
+  </button>
+</div>
+
+              <button className="px-8 py-4 border-2 border-[#2a7bcb]/50  font-semibold hover:bg-[#3fa0ff]/10 hover:border-[#3fa0ff] transition-all duration-300 flex items-center gap-2 group">
                 <Phone className="w-5 h-5" />
                 Get a Quote
               </button>
@@ -160,7 +165,7 @@ export default function Page() {
       <section id="services" className="py-24 px-6">
         <div className="max-w-7xl mx-auto">
           <div className="mb-16">
-            <span className="text-sm text-[#fbbf24] font-semibold tracking-wider uppercase">Our Services</span>
+            <span className="text-sm text-[#3fa0ff] font-semibold tracking-wider uppercase">Our Services</span>
             <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4">What we offer</h2>
             <p className="text-[#94a3b8] max-w-2xl">
               Comprehensive IT solutions tailored to transform your business and accelerate growth.
@@ -171,7 +176,7 @@ export default function Page() {
             {services.map((service, index) => (
               <div
                 key={index}
-                className="group p-0 bg-[#0f1f36] border border-[#1e3a5f] rounded-2xl hover:border-[#fbbf24]/50 transition-all duration-500 hover:-translate-y-2 hover:shadow-xl hover:shadow-[#fbbf24]/10 overflow-hidden"
+                className="group p-0 bg-[#0f1f36] border border-[#3fa0ff] rounded-2xl hover:border-[#2a7bcb]/50 transition-all duration-500 hover:-translate-y-2 hover:shadow-xl hover:shadow-[#3fa0ff]/10 overflow-hidden"
                 style={{ animationDelay: `${index * 100}ms` }}
               >
                 <div className="relative h-40 overflow-hidden">
@@ -183,14 +188,14 @@ export default function Page() {
                   <div className="absolute inset-0 bg-gradient-to-t from-[#0f1f36] to-transparent" />
                 </div>
                 <div className="p-6">
-                  <div className="w-12 h-12 bg-[#fbbf24]/10 rounded-xl flex items-center justify-center mb-5 group-hover:bg-[#fbbf24] group-hover:rotate-6 transition-all duration-300">
-                    <service.icon className="w-6 h-6 text-[#fbbf24] group-hover:text-[#0a1628] transition-colors duration-300" />
+                  <div className="w-12 h-12 bg-[#fbbf24]/10 rounded-xl flex items-center justify-center mb-5 group-hover:bg-[#2a7bcb] group-hover:rotate-6 transition-all duration-300">
+                    <service.icon className="w-6 h-6 text-[#ffffff] group-hover:text-[#ffffff] transition-colors duration-300" />
                   </div>
                   <h3 className="text-lg font-semibold mb-3">{service.title}</h3>
                   <p className="text-[#94a3b8] text-sm leading-relaxed mb-4">{service.desc}</p>
                   <a
                     href="#"
-                    className="inline-flex items-center gap-1 text-sm text-[#fbbf24] font-medium hover:gap-3 transition-all duration-300"
+                    className="inline-flex items-center gap-1 text-sm text-[#3fa0ff] font-medium hover:gap-3 transition-all duration-300"
                   >
                     Read more <ChevronRight className="w-4 h-4" />
                   </a>
@@ -215,7 +220,7 @@ export default function Page() {
 
         <div className="max-w-7xl mx-auto relative">
           <div className="text-center mb-16">
-            <span className="text-sm text-[#fbbf24] font-semibold tracking-wider uppercase">Technology Stack</span>
+            <span className="text-sm text-[#3fa0ff] font-semibold tracking-wider uppercase">Technology Stack</span>
             <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4">Built with modern tools</h2>
             <p className="text-[#94a3b8] max-w-2xl mx-auto">
               We leverage cutting-edge technologies to build robust, scalable solutions.
@@ -226,14 +231,14 @@ export default function Page() {
             {techStack.map((tech, index) => (
               <div
                 key={index}
-                className="group flex gap-5 p-6 bg-[#0a1628] border border-[#1e3a5f] rounded-2xl hover:border-[#fbbf24]/50 transition-all duration-500 hover:shadow-lg hover:shadow-[#fbbf24]/5"
+                className="group flex gap-5 p-6 bg-[#0a1628] border border-[#1e3a5f] rounded-2xl hover:border-[#3fa0ff]/50 transition-all duration-500 hover:shadow-lg hover:shadow-[#3fa0ff]/5"
                 style={{ animation: `float ${3 + index * 0.5}s ease-in-out infinite` }}
               >
-                <div className="w-14 h-14 bg-[#1e3a5f]/50 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-[#fbbf24]/10 group-hover:rotate-12 transition-all duration-300">
-                  <tech.icon className="w-7 h-7 text-[#94a3b8] group-hover:text-[#fbbf24] transition-colors duration-300" />
+                <div className="w-14 h-14 bg-[#1e3a5f]/50 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-[#3fa0ff]/10 group-hover:rotate-12 transition-all duration-300">
+                  <tech.icon className="w-7 h-7 text-[#94a3b8] group-hover:text-[#2a7bcb] transition-colors duration-300" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold mb-2 group-hover:text-[#fbbf24] transition-colors duration-300">
+                  <h3 className="text-lg font-semibold mb-2 group-hover:text-[#3fa0ff] transition-colors duration-300">
                     {tech.title}
                   </h3>
                   <p className="text-[#94a3b8] text-sm leading-relaxed">{tech.desc}</p>
@@ -261,7 +266,7 @@ export default function Page() {
                   Our dedicated team works tirelessly to deliver cutting-edge solutions that drive your business
                   forward.
                 </p>
-                <button className="px-6 py-3 bg-[#fbbf24] text-[#0a1628] rounded-xl font-semibold hover:bg-[#f59e0b] transition-all duration-300 hover:scale-105">
+                <button className="px-6 py-3 bg-[#2563eb] text-[#0a1628] rounded-xl font-semibold hover:bg-[#1e4fd8] transition-all duration-300 hover:scale-105">
                   Meet Our Team
                 </button>
               </div>
@@ -274,7 +279,7 @@ export default function Page() {
       <section id="why-us" className="py-24 px-6">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <span className="text-sm text-[#fbbf24] font-semibold tracking-wider uppercase">Why Choose Us</span>
+            <span className="text-sm text-[#3fa0ff] font-semibold tracking-wider uppercase">Why Choose Us</span>
             <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4">Your trusted technology partner</h2>
             <p className="text-[#94a3b8] max-w-2xl mx-auto">
               We combine expertise, innovation, and dedication to deliver exceptional results.
@@ -285,12 +290,12 @@ export default function Page() {
             {whyUs.map((item, index) => (
               <div
                 key={index}
-                className="text-center p-8 bg-[#0f1f36] border border-[#1e3a5f] rounded-2xl hover:border-[#fbbf24]/50 transition-all duration-500 group hover:-translate-y-2 hover:shadow-2xl hover:shadow-[#fbbf24]/10"
+                className="text-center p-8 bg-[#0f1f36] border border-[#1e3a5f] rounded-2xl hover:border-[#2563eb]/50 transition-all duration-500 group hover:-translate-y-2 hover:shadow-2xl hover:shadow-[#3fa0ff]/10"
               >
-                <div className="w-16 h-16 bg-[#fbbf24]/10 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:bg-[#fbbf24] group-hover:scale-110 group-hover:rotate-6 transition-all duration-500">
-                  <item.icon className="w-8 h-8 text-[#fbbf24] group-hover:text-[#0a1628] transition-colors duration-300" />
+                <div className="w-16 h-16 bg-[#fbbf24]/10 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:bg-[#3fa0ff] group-hover:scale-110 group-hover:rotate-6 transition-all duration-500">
+                  <item.icon className="w-8 h-8 text-[#ffffff] group-hover:text-[#ffffff] transition-colors duration-300" />
                 </div>
-                <h3 className="text-xl font-semibold mb-3 group-hover:text-[#fbbf24] transition-colors duration-300">
+                <h3 className="text-xl font-semibold mb-3 group-hover:text-[#3fa0ff] transition-colors duration-300">
                   {item.title}
                 </h3>
                 <p className="text-[#94a3b8] text-sm leading-relaxed">{item.desc}</p>
@@ -304,7 +309,7 @@ export default function Page() {
       <section id="industries" className="py-24 px-6 bg-[#0f1f36]/50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
-            <span className="text-sm text-[#fbbf24] font-semibold tracking-wider uppercase">Industries</span>
+            <span className="text-sm text-[#3fa0ff] font-semibold tracking-wider uppercase">Industries</span>
             <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4">Industries we serve</h2>
             <p className="text-[#94a3b8] max-w-2xl mx-auto">
               Delivering specialized solutions across diverse sectors with deep domain expertise.
@@ -315,7 +320,7 @@ export default function Page() {
             {industries.map((industry, index) => (
               <span
                 key={index}
-                className="px-5 py-2.5 bg-[#0a1628] border border-[#1e3a5f] rounded-full text-sm font-medium hover:border-[#fbbf24] hover:bg-[#fbbf24]/10 hover:text-[#fbbf24] hover:scale-110 transition-all duration-300 cursor-pointer"
+                className="px-5 py-2.5 bg-[#0a1628] border border-[#2563eb] rounded-full text-sm font-medium hover:border-[#3fa0ff] hover:bg-#3fa0ff]/10 hover:text-[#3fa0ff] hover:scale-110 transition-all duration-300 cursor-pointer"
               >
                 {industry}
               </span>
@@ -333,22 +338,22 @@ export default function Page() {
               alt="Technology Background"
               className="absolute inset-0 w-full h-full object-cover opacity-20"
             />
-            <div className="absolute inset-0 bg-gradient-to-br from-[#fbbf24]/20 via-[#0a1628]/90 to-[#1e40af]/20" />
-            <div className="absolute inset-0 border border-[#fbbf24]/30 rounded-3xl" />
+            <div className="absolute inset-0 bg-gradient-to-br from-[#3fa0ff]/20 via-[#0a1628]/90 to-[#1e40af]/20" />
+            <div className="absolute inset-0 border border-[#2563eb]/30 rounded-3xl" />
 
             <div className="relative">
-              <span className="text-sm text-[#fbbf24] font-semibold tracking-wider uppercase">Join Us</span>
+              <span className="text-sm text-[#3fa0ff] font-semibold tracking-wider uppercase">Join Us</span>
               <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4">Ready to transform your business?</h2>
               <p className="text-[#94a3b8] max-w-xl mx-auto mb-8">
                 Partner with us to leverage cutting-edge technology and drive your digital transformation journey
                 forward.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
-                <button className="px-8 py-4 bg-[#fbbf24] text-[#0a1628] rounded-xl font-semibold hover:bg-[#f59e0b] transition-all duration-300 hover:shadow-xl hover:shadow-[#fbbf24]/25 hover:scale-105 flex items-center gap-2 group">
+                <button className="px-8 py-4 bg-[#2563eb] text-[#0a1628] rounded-xl font-semibold hover:bg-[#1e4fd8] transition-all duration-300 hover:shadow-xl hover:shadow-[#3fa0ff]/25 hover:scale-105 flex items-center gap-2 group">
                   Get in Touch
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-2 transition-transform duration-300" />
                 </button>
-                <button className="px-8 py-4 border border-[#fbbf24]/30 rounded-xl font-semibold hover:bg-[#fbbf24]/10 hover:border-[#fbbf24] transition-all duration-300">
+                <button className="px-8 py-4 border border-[#2563eb]/30 rounded-xl font-semibold hover:bg-[#2563eb]/10 hover:border-[#2563eb] transition-all duration-300">
                   View Case Studies
                 </button>
               </div>

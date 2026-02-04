@@ -2059,6 +2059,14 @@ ul {
   font-size: 0.9rem;
 }
 
+/* tailwind.css or your custom CSS file */
+.text-gradient-blue {
+  background: linear-gradient(90deg, #0a3dff, #3fa0ff, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
 
 
 /* Responsive Styles */
