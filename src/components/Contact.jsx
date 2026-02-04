@@ -16,21 +16,21 @@ export default function Contact() {
                 <div className="contact-icon">📍</div>
                 <div className="contact-text">
                   <h4>Our Location</h4>
-                  <p>No 593/2 C, Bulugaha Junction, Kelaniya, Sri Lanka</p>
+                  <p>No 490/4, Eksath Mawatha, Dalugama,Sri Lanka</p>
                 </div>
               </div>
               <div className="contact-item">
                 <div className="contact-icon">📞</div>
                 <div className="contact-text">
                   <h4>Phone Number</h4>
-                  <p>+94 77 769 3389</p>
+                  <p>+94 77 741 2810</p>
                 </div>
               </div>
               <div className="contact-item">
                 <div className="contact-icon">📧</div>
                 <div className="contact-text">
                   <h4>Email Address</h4>
-                  <p>ncefire.projects@gmail.com</p>
+                  <p>slmaterialhub@gmail.com</p>
                 </div>
               </div>
               <div className="contact-item">

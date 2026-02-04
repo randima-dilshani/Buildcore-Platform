@@ -11,21 +11,21 @@ export default function Footer() {
               <span className="cta-icon">📞</span>
               <div className="cta-content">
                 <span className="cta-label">Give Us A Call</span>
-                <span className="cta-value">+94 77 769 3389</span>
+                <span className="cta-value">+94 77 741 2810</span>
               </div>
             </div>
             <div className="cta-item">
               <span className="cta-icon">📧</span>
               <div className="cta-content">
                 <span className="cta-label">Send Us Email</span>
-                <span className="cta-value">ncefire.projects@gmail.com</span>
+                <span className="cta-value">slmaterialhub@gmail.com</span>
               </div>
             </div>
             <div className="cta-item">
               <span className="cta-icon">📍</span>
               <div className="cta-content">
                 <span className="cta-label">Our Location</span>
-                <span className="cta-value">No 593/2 C, Bulugaha Junction, Kelaniya, Sri Lanka</span>
+                <span className="cta-value">No 490/4, Eksath Mawatha, Dalugama,Sri Lanka</span>
               </div>
             </div>
           </div>
@@ -53,8 +53,7 @@ export default function Footer() {
 </div>    
               </div>
               <p className="footer-description">
-                Leading provider of fire alarm systems and security solutions in Sri Lanka. Protecting lives and
-                property with cutting-edge technology and expert service.
+                A leading provider of high-quality materials, delivering reliable solutions with expertise, innovation, and unmatched service.
               </p>
             <div className="footer-social">
   <a href="https://www.facebook.com/share/1BpG2xgh2k/" className="social-link" aria-label="Facebook">
@@ -136,7 +135,7 @@ export default function Footer() {
 
       <div className="footer-bottom">
         <div className="container">
-          <p>© 2026 North Central Engineering. All Rights Reserved.</p>
+          <p>© 2026 Material Hub Pvt Ltd. All Rights Reserved.</p>
         </div>
       </div>
     </footer>

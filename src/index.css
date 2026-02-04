@@ -37,14 +37,14 @@
     /* center buttons */
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .hero-buttons {
     flex-direction: column;
     width: 100%;
-    align-items: center; /* mobile center */
+    align-items: center; 
     gap: 12px;
   }
-}
+} */
 
 .hero-buttons .btn-primary {
   background: #2563eb; /* deep professional blue */
@@ -59,9 +59,9 @@
 
 
 /* Media query can now be simpler */
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   .hero-content {
-    max-width: 90%;         /* slightly smaller on tablets */
+    max-width: 90%;         
     padding: 60px 20px;
   }
 
@@ -72,15 +72,15 @@
     width: 100%;
     justify-content: center;
   }
-}
+} */
 
 
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
   .hero {
     min-height: 100vh;
-  }
+  } */
 
-  .hero-title {
+  /* .hero-title {
     font-size: 2rem;
     line-height: 1.2;
   }
@@ -95,7 +95,7 @@
     width: 100%;
     justify-content: center;
   }
-}
+} */
 
 html {
   scroll-behavior: smooth;
@@ -2064,8 +2064,8 @@ ul {
 /* Responsive Styles */
 @media (max-width: 1024px) {
   .hero-content {
-   align-items: center;    /* center content on tablet/mobile */
-    text-align: center;     /* center text on smaller screens */
+   align-items: center;    
+    text-align: center;     
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -2144,11 +2144,57 @@ ul {
     display: none;
   }
 
+  /* =====================================================
+   FINAL MOBILE RESPONSIVENESS
+===================================================== */
 
-  /* Mobile responsive navbar */
-@media (max-width: 768px) {
+/* ---------- Large Tablets ---------- */
+@media (max-width: 1024px) {
+
+  .hero-content {
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 60px 24px;
+  }
+
+  .hero-description {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+
+  .about-grid,
+  .why-container,
+  .testimonials,
+  .contact-grid,
+  .emergency-banner {
+    grid-template-columns: 1fr;
+  }
+
+  .why-content,
+  .testimonials-content,
+  .emergency-left .emergency-content {
+    max-width: 100%;
+    padding-right: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .testimonials-right {
+    min-height: 400px;
+  }
+}
+
+/* ---------- Tablets & Mobile Navbar ---------- */
+@media (max-width: 968px) {
+
   .menu-toggle {
-    display: block; /* show hamburger */
+    display: block;
   }
 
   .nav-links {
@@ -2156,125 +2202,109 @@ ul {
     top: 100%;
     left: 0;
     right: 0;
-    background-color: var(--dark-blue);
+    background-color: var(--dark-blue-light);
     flex-direction: column;
-    gap: 0;
-    overflow: hidden;
-    max-height: 0;
-    transition: max-height 0.3s ease;
-  }
-
-  .nav-links li {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  }
-
-  .nav-links li a {
-    display: block;
-    padding: 16px 20px;
+    gap: 18px;
+    padding: 24px;
+    display: none;
   }
 
   .nav-links.active {
-    max-height: 500px; /* enough to show all items */
+    display: flex;
+  }
+
+  .nav-links a {
+    padding: 12px 0;
   }
 
   .nav-cta {
-    display: none; /* hide button on mobile if needed */
+    display: none;
+  }
+
+  .top-bar-content {
+    flex-direction: column;
+    gap: 6px;
+    text-align: center;
   }
 }
 
-  .top-bar-left,
-  .top-bar-right {
-    font-size: 0.75rem;
+/* ---------- Mobile ---------- */
+@media (max-width: 768px) {
+
+  .hero {
+    min-height: 100vh;
   }
 
-  .top-bar-left {
-    gap: 12px;
+  .hero-title {
+    font-size: 2.4rem;
+    line-height: 1.15;
   }
 
-  .about-grid,
-  .contact-grid {
-    grid-template-columns: 1fr;
-    gap: 60px;
+  .hero-description {
+    font-size: 1rem;
+    line-height: 1.7;
   }
 
-  .about-images {
-    max-width: 500px;
-    margin: 0 auto;
+  .hero-buttons {
+    flex-direction: column;
+    width: 100%;
   }
 
-  .about-experience {
-    left: 0;
+  .hero-buttons button {
+    width: 100%;
+    justify-content: center;
   }
 
   .services-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .footer-cta {
     grid-template-columns: 1fr;
-    gap: 20px;
   }
 
   .footer-grid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 40px;
+    text-align: center;
   }
 
-  .footer-about {
-    grid-column: span 2;
+  .footer-logo,
+  .footer-social {
+    justify-content: center;
+  }
+
+  .footer-newsletter form {
+    flex-direction: column;
+  }
+
+  .newsletter-form input,
+  .newsletter-form button {
+    width: 100%;
   }
 }
 
-@media (max-width: 768px) {
+/* ---------- Small Mobile ---------- */
+@media (max-width: 576px) {
+
   .hero-title {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .section-title,
   .section-title-dark {
-    font-size: 2rem;
+    font-size: 1.9rem;
   }
 
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 
-  .emergency-title {
-    font-size: 1.5rem;
+  .logo-image-container {
+    width: 56px;
+    height: 56px;
+  }
+
+  .emergency-number-large {
+    font-size: 2rem;
   }
 }
 
-@media (max-width: 576px) {
-  .top-bar-content {
-    flex-direction: column;
-    gap: 8px;
-  }
-
-  .top-bar-left {
-    flex-direction: column;
-    align-items: center;
-    gap: 4px;
-  }
-
-  .services-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .testimonials-stats-overlay {
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .form-row {
-    grid-template-columns: 1fr;
-  }
-
-  .contact-form-wrapper {
-    padding: 24px;
-  }
-
-  .footer-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .footer-about {
-    grid-column: span 1;
-  }
 }
