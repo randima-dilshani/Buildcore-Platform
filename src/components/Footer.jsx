@@ -56,7 +56,7 @@ export default function Footer() {
                 A leading provider of high-quality materials, delivering reliable solutions with expertise, innovation, and unmatched service.
               </p>
             <div className="footer-social">
-  <a href="https://www.facebook.com/share/1BpG2xgh2k/" className="social-link" aria-label="Facebook">
+  <a href="https://www.facebook.com/share/17u85T1jfx/" className="social-link" aria-label="Facebook">
     <Facebook size={18} />
   </a>
 

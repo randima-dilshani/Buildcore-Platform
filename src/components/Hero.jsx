@@ -32,10 +32,7 @@ export default function Hero() {
 </h1>
 
           <p className="hero-description">
-           We are a leading provider of quality matcrials and integrated solutions for the
-constluction and related industries in Sri Lanka. Our rnission is to enhance operational
-efficiency and service delir..ery through the adoption of advanccd IT systerns and digital
-technologies.
+          We are a leading provider of quality materials and integrated solutions for the construction and related industries in Sri Lanka. Our mission is to enhance operational efficiency and service delivery through the adoption of advanced IT systems and digital technologies.
           </p>
      <div className="hero-buttons">
   <a href="#services" className="btn-primary">
