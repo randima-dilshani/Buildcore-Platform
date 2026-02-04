@@ -64,7 +64,7 @@ export default function Footer() {
     <Twitter size={18} />
   </a>
 
-  <a href="#" className="social-link" aria-label="LinkedIn">
+  <a href="https://www.linkedin.com/company/material-hub-lk/" className="social-link" aria-label="LinkedIn">
     <Linkedin size={18} />
   </a>
 
