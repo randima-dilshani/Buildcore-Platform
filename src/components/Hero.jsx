@@ -19,20 +19,23 @@ export default function Hero() {
       <div
         className="hero-background"
         style={{
-          backgroundImage: `url('/image2.png')`,
+          backgroundImage: `url('/i.jpg')`,
         }}
       ></div>
       <div className="hero-overlay"></div>
       <div className="container hero-content">
         <div className="hero-text">
           
-          <span className="hero-subtitle">Fire Safety Solutions Provider</span>
-          <h1 className="hero-title">
-            Expert Fire Alarm
-            <span className="highlight"> Systems</span> & Safety Solutions
-          </h1>
+          <span className="hero-subtitle">Your Partner in Building Excellencer</span>
+ <h1 className="hero-title">
+  <span className="no-break">Innovating Construction</span> <span className="no-break"> Through <span className="highlight">Quality Materials</span> </span> & Digital Excellence
+</h1>
+
           <p className="hero-description">
-            North Central Engineering delivers end-to-end fire safety solutions, including fire detection and alarm systems, fire extinguishers, suppression systems, hydrant, hose reel, sprinkler systems, and fire pump rooms. We also provide maintenance and AMC, compliance audits, training, documentation, and rapid spares replacement to ensure reliable and compliant fire protection.
+           We are a leading provider of quality matcrials and integrated solutions for the
+constluction and related industries in Sri Lanka. Our rnission is to enhance operational
+efficiency and service delir..ery through the adoption of advanccd IT systerns and digital
+technologies.
           </p>
      <div className="hero-buttons">
   <a href="#services" className="btn-primary">

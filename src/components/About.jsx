@@ -108,12 +108,10 @@ useEffect(() => {
           </div>
 
           <div className="about-content">
-            <span className="section-subtitle">About North Central Engineering</span>
+            <span className="section-subtitle">About Material Hub Pvt Ltd</span>
             <h2 className="section-title">We Are Always Ready To Protect Your Property</h2>
           <p className="about-description">
-  North Central Engineering (NCE) is a trusted fire safety partner in Sri Lanka, delivering certified equipment and
-  code-compliant fire protection systems for residential, commercial, and industrial sites. We design, supply,
-  install, and maintain complete solutions from fire alarms and sprinklers to hydrants, hose reels, and pump rooms.
+  Material Hub is a trusted provider of quality construction materials and integrated solutions in Sri Lanka, supporting residential, commercial, and industrial projects. We combine reliable materials with technology-driven solutions to improve efficiency, performance, and long-term value.
 </p>
             <div className="about-services">
               {services.map((service, index) => (
