@@ -9,7 +9,7 @@ export default function Testimonials() {
       role: "Factory Manager",
       company: "Lanka Industries",
       image: "/image7.png",
-      text: "North Central Engineering installed our factory's complete fire alarm system. Their team was professional, and the system works flawlessly. Excellent after-sales support!",
+      text: "Material Hub Pvt Ltd installed our factory's complete fire alarm system. Their team was professional, and the system works flawlessly. Excellent after-sales support!",
       rating: 5,
     },
     {
@@ -17,7 +17,7 @@ export default function Testimonials() {
       role: "Operations Director",
       company: "City Hospital",
       image: "/image9.png",
-      text: "We needed a comprehensive fire safety solution for our hospital. NCE designed and installed a system that meets all regulatory requirements. Highly professional service.",
+      text: "We needed a comprehensive fire safety solution for our hospital. Material Hub  designed and installed a system that meets all regulatory requirements. Highly professional service.",
       rating: 5,
     },
     {
@@ -25,7 +25,7 @@ export default function Testimonials() {
       role: "Property Manager",
       company: "Colombo Towers",
       image: "/image8.png",
-      text: "We've been using NCE for all our fire alarm and CCTV needs for 5 years. Their maintenance service is prompt and reliable. Best fire safety company in Sri Lanka!",
+      text: "We've been using Material Hub for all our fire alarm and CCTV needs for 5 years. Their maintenance service is prompt and reliable. Best fire safety company in Sri Lanka!",
       rating: 5,
     },
   ]
