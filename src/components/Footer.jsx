@@ -11,7 +11,7 @@ export default function Footer() {
               <span className="cta-icon">📞</span>
               <div className="cta-content">
                 <span className="cta-label">Give Us A Call</span>
-                <span className="cta-value">+94 77 741 2810</span>
+                <span className="cta-value"> +94 77 769 3389<br />+94 77 741 2810</span>
               </div>
             </div>
             <div className="cta-item">

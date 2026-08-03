@@ -5,7 +5,7 @@ export default function EmergencyBanner() {
         <div className="container">
           <div className="emergency-content">
             <span className="emergency-label">Contact Us For Sales & Support</span>
-            <h2 className="emergency-number-large">+94 77 741 2810</h2>
+            <h2 className="emergency-number-large"> +94 77 769 3389<br />+94 77 741 2810</h2>
             <p className="emergency-email">slmaterialhub@gmail.com</p>
           </div>
         </div>

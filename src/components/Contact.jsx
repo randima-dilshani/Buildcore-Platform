@@ -23,7 +23,7 @@ export default function Contact() {
                 <div className="contact-icon">📞</div>
                 <div className="contact-text">
                   <h4>Phone Number</h4>
-                  <p>+94 77 741 2810</p>
+                  <p> +94 77 769 3389<br />+94 77 741 2810</p>
                 </div>
               </div>
               <div className="contact-item">
